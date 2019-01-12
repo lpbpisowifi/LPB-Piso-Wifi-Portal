@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title> lpb $title ?> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta charset utf="8">
+      <!--//CSS AREA -->
+      <!--font-awsome-css-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--bootstrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <!--custom css-->
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/contact.css" rel="stylesheet" type="text/css" />
+      <link href="css/blog.css" rel="stylesheet" type='text/css' media="all" />
+      <!--component-css-->
+      <!-- web-fonts -->
+      <link href="//fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+      <!--//END CSS AREA -->
+   </head>
+   <body>
+      <div class="body-back">
+         <div class="masthead pdng-stn1">
+            <div class="phone-box wrap push" id="home">
+               <div class="banner_info_agile_w3ls">
+                  <div class="banner_info_agile_w3ls_inner">
+                     <img src="images/apple-touch-icon-120x120.png" alt=" " class="img-responsive">
+                     <h2>lpb $title ?></h2>
+                  </div>
+                  <span>Status:
+                  </span>lpb $status_html ?> <br>
+                  lpb($pausedTime) ? '<span>PAUSED TIME: </span> <span>-- </span> <br>' : '<span>TIME:</span><span id="rtime">0:00</span>' ?>
+                  <br>
+               </div>
+            </div>
+            lpb($onQueue) ? '<div id="app-alert" class="alert alert-block alert-danger">Someone is already on the coin slot, please wait a while.</div>' : $onQueue = false ?>
+            lpb ($errorsession) ? '<div id="app-alert" class="alert alert-block alert-danger">  '.$errormsg.'        </div>' : '' ?>
+            <div class="wrap_view_agileits">
+               <div class="inner_section_wthree">
+                  <div class="col-md-7 about-left">
+                     <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                        <div id="myTabContent" class="tab-content">
+                           <div class="about-left-info">
+                              <div align="center"> 
+                                 <a href="lpb $connectlink ?>"  style="background-color: #c1500d;padding: 20px 20% 20px;" class="btn btn-primary">Insert Coin
+                                 </a>	
+                              </div>
+                           </div>
+                           <div class="about-left-info">
+                              <div align="center"> 
+                                 <a href="lpb $buyvoucherlink ?>"  class="btn btn-primary">Buy Voucher
+                                 </a>  
+                              </div>
+                           </div>
+                           <br>
+                           <div class="about-left-info">
+                              <div class="table-responsive">
+                                 <div align="center">
+                                    <h4>Wifi Rates
+                                    </h4>
+                                 </div>
+                                 <table class="table table-hover table-td-valign-middle">
+                                    <thead>
+                                       <tr>
+                                          <th width="50%" class="text-center">Coin Type
+                                          </th>
+                                          <th width="50%" class="text-center">Minutes
+                                          </th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="text-center">1
+                                          </td>
+                                          <td class="text-center">lpb $piso ?>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center">5
+                                          </td>
+                                          <td class="text-center">lpb $lima ?>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center">10
+                                          </td>
+                                          <td class="text-center">lpb $pulo ?>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <div class="about-left-info">
+                              <!-- //VOUCHER CODE FORM INFO-->
+                              <form name="frmvoucher" id="frmvoucher" class="form-input-flat" action="lpb $encoder ?>" method="post">
+                                 <div class="input-group"> 
+                                    <input type="hidden" name="hashcode01" id="hashcode01" value="lpb $hashcode01; ?>">
+                                    <input type="text" class="form-control" name="vcode" id="vcode" placeholder="Enter voucher code here..">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-info" id="btn-vcode" type="button">Submit
+                                    </button>
+                                    </span>
+                                 </div>
+                              </form>
+                              <!-- //END VOUCHER CODE FORM INFO-->
+                           </div>
+                           <br>
+                           <div align="center"> 
+                              lpb ($pausedTime) ? '<a href="'.$resumesessionlink.'" class="btn btn-primary"> Resume Paused Time </a>' : '' ?>	
+                           </div>
+                           lpb ($remainingTime > 0) ? '<div align="left" style="margin-left: 5%;"><a href=" '.$pausesessionlink.'" class="btn btn-primary"> Pause Time</a></div>             <div align="right" style="margin-top: -34px;margin-right: 5%;"> <a href="'.$session2voucher.'" < class="btn btn-primary">Convert time to voucher</a></div>' : '' ?>	
+                           <br>
+                           <!-- //LIST VOUCHER -->
+                           lpb vouchersList($link, $ip, $mac); ?>
+                           <!-- //END LIST NG VOUCHER-->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"> 
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--//footer-->
+      <div class="footer">
+         <div class="clearfix"> 
+         </div>
+         <div class="footer_pos_w3_agile">
+            <p>© 2019 
+               lpb $title ?>. All Rights Reserved
+            </p>
+         </div>
+      </div>
+      <!--//footer-->
+	  
+	  
+	  <!--// NOTE WAG E REMOVE -->
+      <!--// NOTE WAG E REMOVE -->
+      <script src="js/jquery-3.1.1.min.js"></script>			
+      <!--// end NOTE WAG E REMOVE -->
+	  <!--// end NOTE WAG E REMOVE -->
+	  
+	  
+	  
+      <script src="js/apps.min.js"></script>	
+   </body>
+</html>

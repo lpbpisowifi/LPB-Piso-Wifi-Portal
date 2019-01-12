@@ -1,0 +1,207 @@
+html,
+body {
+    margin: 0;
+    font-size: 100%;
+	font-family: 'Inconsolata', monospace;
+    background: #fff;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/*--/single--*/
+.blog_info.single h5 {
+    margin: 1em 0 0.5em 0;
+}
+.blog_con p i {
+    color: #168eea;
+    margin: 1em 0;
+    display: block;
+}
+.comments-grid-right i {
+    font-style: normal;
+}
+
+.comments-grid-left img {
+    padding: .3em;
+    border: 2px solid #eff3f3;
+    border-radius: 50%;
+}
+
+.comments-grid-right {
+    float: right;
+    width: 75%;
+}
+
+.comments-grid-left {
+    float: left;
+    width: 15%;
+    margin-top: 1em;
+}
+.comments-grid-right ul {
+    padding: 0.5em 0;
+}
+
+.comments-grid-right ul li {
+    display: inline-block;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.comments-grid-right ul li a {
+    color: #ee4f4f;
+    text-decoration: none;
+}
+
+.comments-grid-right p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.comments-grid-right h4 a {
+    font-size: 1em;
+    color: #313131;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.comments-grid:nth-child(2) {
+    margin: 1em 0 0em 5em;
+}
+.comments h3 {
+    margin: 2em 0;
+}
+
+.left_bar h3,
+.comments h3 {
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #212121;
+    padding-bottom: .5em;
+    letter-spacing: 1px;
+}
+
+.contact-form span label {
+    display: block;
+    font-size: 1em;
+    color: #444;
+    padding-bottom: 5px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.myButton {
+    background: #212121;
+    color: #fff;
+    font-size: 1em;
+    padding: 17px 0;
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+}
+
+.myButton:hover {
+    background: #168eea;
+}
+
+.contact-form div {
+    padding: 5px 0;
+}
+
+.left_form {
+    float: left;
+    width: 48%;
+}
+
+.right_form {
+    float: left;
+    width: 48%;
+    margin-left: 3.8%;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #464646;
+    font-size: 1em;
+    box-shadow: inset 0px 0px 3px #999;
+    -webkit-box-shadow: inset 0px 0px 3px #999;
+    -moz-box-shadow: inset 0px 0px 3px #999;
+    -o-box-shadow: inset 0px 0px 3px #999;
+    -webkit-appearance: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 153px;
+}
+
+.contact-form {
+    position: relative;
+    margin-top: 3em;
+}
+
+
+/*--responsive--*/
+
+@media(max-width:667px) {
+    .left_form {
+        float: left;
+        width: 100%;
+    }
+    .right_form {
+        float: left;
+        width: 100%;
+        margin-left: 0;
+    }
+    .comments-grid-right ul {
+        padding: 0.5em 0;
+    }
+    .comments-grid:nth-child(2) {
+        margin: 1em 0 0em 0em;
+    }
+    .comments-grid-left {
+        float: left;
+        width: 19%;
+        margin-top: 0em;
+    }
+    .contact-form textarea {
+        resize: none;
+        min-height: 60px;
+    }
+}
+@media(max-width:384px) {}
+
+@media(max-width:375px) {}
+
+@media(max-width:320px) {}
+
+
+/*--//responsive--*/
