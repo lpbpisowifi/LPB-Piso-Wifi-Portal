@@ -44,7 +44,7 @@
                         <div id="myTabContent" class="tab-content">
                            <div class="about-left-info">
                               <div align="center"> 
-							  lpb(file_exists($checkinsert)) ? '<button type="button" style="background-color: #c1500d;padding: 20px 20% 20px;"  class="btn btn-primary" disabled>Insert Coin Disable</button>' : '<a href="'.$connectlink.'"  style="background-color: #c1500d;padding: 20px 20% 20px;" class="btn btn-primary">Insert Coin</a>' ?>
+	lpb(file_exists($checkinsert)) ? '<button type="button" style="background-color: #c1500d;padding: 20px 20% 20px;"  class="btn btn-primary" disabled>Insert Coin Disable</button>' : '<a href="'.$connectlink.'"  style="background-color: #c1500d;padding: 20px 20% 20px;" class="btn btn-primary">Insert Coin</a>' ?>
                               </div>
                            </div>
                            <div class="about-left-info">
