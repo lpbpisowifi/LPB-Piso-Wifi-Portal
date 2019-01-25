@@ -109,7 +109,7 @@
                            <div align="center"> 
                               lpb ($pausedTime) ? '<a href="'.$resumesessionlink.'" class="btn btn-primary"> Resume Paused Time </a>' : '' ?>	
                            </div>
-                           lpb ($remainingTime > 0) ? '<div align="left" style="margin-left: 5%;"><a href=" '.$pausesessionlink.'" class="btn btn-primary"> Pause Time</a></div>             <div align="right" style="margin-top: -34px;margin-right: 5%;"> <a href="'.$session2voucher.'" < class="btn btn-primary">Convert time to voucher</a></div>' : '' ?>	
+                           lpb ($remainingTime > 0 & $xzcas >=1) ? '<div align="left" style="margin-left: 5%;"><a href=" '.$pausesessionlink.'" class="btn btn-primary"> Pause Time</a></div>             <div align="right" style="margin-top: -34px;margin-right: 5%;"> <a href="'.$session2voucher.'" < class="btn btn-primary">Convert time to voucher</a></div>' : '' ?>	
                            <br>
                            <!-- //LIST VOUCHER -->
                            lpb vouchersList($link, $ip, $mac); ?>
